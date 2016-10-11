@@ -1,0 +1,65 @@
+#market {
+    float: left;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+}
+
+#fridge{
+    float: left;
+    width: 330px;
+    height: 400px;
+    margin: 11px;
+    background: url(img/fridge.jpg);
+}
+
+
+#dish{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-right: 70px;
+    background: url(img/table.jpg) no-repeat center;
+
+    border: 1px solid black;
+}
+
+#listOfDish{
+    float: left;
+    width: 28%;
+    height: 300px;
+    margin: 11px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#necessaryProducts{
+
+}
+.tooltip {
+    border: 1px solid green;
+    background: white;
+    position: absolute;
+}
+.tooltip span {
+    margin-left: -999em;
+    position: absolute;
+}
+.tooltip:hover span {
+    border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute; z-index: 99;
+    margin-left: 0; width: 100px;
+}
+.tooltip:hover img {
+    border: 0;
+    float: left; position: absolute;
+}
+
+.classic { padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 0.8em; }
